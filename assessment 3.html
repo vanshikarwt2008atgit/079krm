@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color:plum;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color:brown;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            padding: 5px 20px;
+        }
+
+        .header h2 {
+            font-size: 22px;
+        }
+
+        .header-s {
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+
+        .header-s a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .stack {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .intro h1 {
+            font-size: 38px;
+            margin-bottom: 5px;
+        }
+
+        .intro p {
+            font-size: 13px;
+            color: gray;
+        }
+
+        .profile img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .about {
+            padding: 10px 20px;
+        }
+
+        .about p {
+            font-size: 13px;
+            color: #555;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: space-around;
+            gap: 15px;
+            padding: 10px 20px;
+        }
+
+        .skill1, .skill2, .skill3 {
+            background-color:palevioletred;
+            color: white;
+            padding: 12px;
+            width: 30%;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .skill1 h4, .skill2 h4, .skill3 h4 {
+            margin: 5px;
+        }
+
+        .skill1 p, .skill2 p, .skill3 p {
+            font-size: 12px;
+            margin: 5px;
+        }
+
+
+        .d0 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .d1, .d2 {
+            background-color:palevioletred;
+            padding: 15px;
+            text-align: center;
+            margin: 8px;
+            width: 55%;
+            min-height: 100px;
+            border-radius: 5px;
+            border: 5px solid brown
+        }
+
+        .d1 h4, .d2 h4 {
+            margin: 5px;
+        }
+
+        .d1 p, .d2 p {
+            font-size: 13px;
+            color: gray;
+        }
+
+
+        .contact {
+            display: flex;
+            justify-content: center;
+        }
+
+        .t1 {
+            background-color: white;
+            padding: 15px;
+            border: none;
+            width: 300px;
+            border-radius: 5px;
+            display:flex;
+            justify-content: center;
+        }
+
+        .t1 td {
+            padding: 5px;
+            font-size: 13px;
+        }
+
+        .t1 input, .t1 textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 7px;
+            border: 1px solid gray;
+        }
+
+        .t1 textarea {
+            height: 50px;
+            resize: vertical;
+        }
+
+        .t1 button {
+            background-color: royalblue;
+            color: white;
+            width: 100%;
+            padding: 8px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .footer {
+            background-color:brown;
+            padding: 1px;
+            text-align: center;
+            color: white;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+
+        .button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .button a {
+            background-color: royalblue;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+   </style>
+</head>
+
+<body id="top">
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <h2>My Portfolio</h2>
+
+        <div class="header-s">
+            <h6>About</h6>
+            <h6>Skills</h6>
+            <h6>Projects</h6>
+            <h6>Contacts</h6>
+        </div>
+
+    </div>
+
+
+    <div class="stack">
+
+        <div class="intro">
+
+            <h1>Hi, I am</h1>
+            <h1 style="color:brown;">Full Stack Developer</h1>
+            <p style="color:black;">Building Modern Web Applications</p>
+
+        </div>
+
+        <div class="profile">
+
+            <img src="c:\Users\senthilkumar\Desktop\MEMOIRS\12th in and after\TRIP- NAINITAL 2K26\me.jpeg" alt="My Profile Picture">
+
+        </div>
+
+    </div>
+
+    <div class="about" id="about">
+
+        <h2>About Me</h2>
+
+        <p style="color:black;">
+            Hello! I am Vanshika. I am a web developer and
+            this is my first portfolio. I enjoy learning new
+            technologies and creating modern web pages.
+        </p>
+
+    </div>
+
+    <h2 style="padding-left:20px;" id="skills">My Skills</h2>
+
+    <div class="skills">
+
+        <div class="skill1">
+
+            <h4>HTML</h4>
+            <p>Beginner</p>
+
+        </div>
+
+        <div class="skill2">
+
+            <h4>CSS</h4>
+            <p>Beginner</p>
+
+        </div>
+
+        <div class="skill3">
+
+            <h4>JavaScript</h4>
+            <p>Learning</p>
+
+        </div>
+
+    </div>
+
+    <h2 style="padding-left:20px;" id="projects">
+        My Projects
+    </h2>
+
+    <div class="d0">
+
+        <div class="d1">
+
+            <h4>Project 1</h4>
+
+            <p style="color:azure;">A Simple HTML & CSS Webpage</p>
+
+        </div>
+
+        <div class="d2">
+
+            <h4>Project 2</h4>
+
+            <p style="color:azure;">Another Awesome Project</p>
+
+        </div>
+
+    </div>
+
+    <h2 style="padding-left:20px;" id="contact">
+        Contact Me
+    </h2>
+
+    <div class="contact">
+        <div class="d3">
+           <table border="" class="t1">
+            <tr>
+                <td>Name :</td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td>Email : </td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Message :</td>
+                <td><textarea id="message" name="message"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit" style="background-color:brown;">Submit</button></td>
+            </tr>
+        </table> 
+        </div>
+        </div>
+    <br><br>
+    <div class="footer">
+
+        <h4>
+            © 2026 Vanshika Rawat. All Rights Reserved.
+        </h4>
+
+    </div>
+
+    <div class="button" style="background-color:palevioletred;">Back to Top!
+
+    </div>
+
+</body>
+</html>
